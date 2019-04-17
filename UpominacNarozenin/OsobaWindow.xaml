@@ -17,5 +17,12 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Image Source="ContactImage.png" Stretch="None" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0"/>
+        <Label Content="_Jméno" Grid.Column="0" Grid.Row="1" Target="{Binding ElementName=jmenoTextBox}"/>
+        <Label Content="_Datum narození" Grid.Column="0" Grid.Row="2" Target="{Binding ElementName=narozeninyDatePicker}"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Name="jmenoTextBox" Margin="0,0,0,5"/>
+        <DatePicker Grid.Column="1" Grid.Row="2" Name="narozeninyDatePicker" Margin="0,0,0,5"/>
+        <Button Name="okButton" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Content="OK" IsDefault="True" Margin="277,0,0,10"/>
+        <Button Name="CancelButton" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="100" Content="Cancel" IsCancel="True" Margin="0,0,276.6,10" />
     </Grid>
 </Window>
