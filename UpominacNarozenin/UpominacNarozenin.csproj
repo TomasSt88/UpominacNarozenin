@@ -108,5 +108,11 @@
   <ItemGroup>
     <Resource Include="Reminders.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Contact.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ContactImage.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

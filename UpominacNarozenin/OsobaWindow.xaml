@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UpominacNarozenin"
         mc:Ignorable="d"
-        Title="OsobaWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid>
-        
+        Title="OsobaWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="Contact.ico"  >
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
